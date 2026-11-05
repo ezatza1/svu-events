@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>تفاصيل الفعالية</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">دليل الفعاليات</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link" href="index.html">الرئيسية</a></li>
+                            <li class="nav-item"><a class="nav-link" href="events.html">الفعاليات</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">عن الدليل</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">اتصل بنا</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="container mt-4">
+            <h2>ورشة عمل: تطوير الويب</h2>
+            <div class="row mt-4">
+                <div class="col-md-8">
+                    <img src="assets/img/img1.jpg" class="img-fluid rounded mb-3 event-featured-image" alt="صورة الفعالية" />
+                    <h4>وصف الفعالية</h4>
+                    <p>ورشة عمل شاملة تهدف إلى تعليم الطلاب كيفية بناء صفحات ويب متجاوبة باستخدام HTML, CSS, JavaScript. ستتضمن الورشة تطبيقاً عملياً مباشراً.</p>
+
+                    <h4>معرض الصور</h4>
+                    <div class="d-flex gap-2 mb-4">
+                        <img src="assets/img/img2.jpg" class="rounded event-thumbnail" alt="صورة مصغرة" />
+                        <img src="assets/img/img1.jpg" class="rounded event-thumbnail" alt="صورة مصغرة" />
+                        <img src="assets/img/img3.jpg" class="rounded event-thumbnail" alt="صورة مصغرة" />
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">معلومات الفعالية</h5>
+                            <p class="card-text"><strong>التاريخ:</strong> 15-10-2026</p>
+                            <p class="card-text"><strong>المكان:</strong> قاعة 1 - المبنى الرئيسي</p>
+                            <button class="btn btn-success w-100 mb-2" onclick="alert('تمت الإضافة إلى التقويم!')">أضف للتقويم</button>
+                            <button class="btn btn-outline-secondary w-100" onclick="alert('تم نسخ الرابط!')">شارك</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/img/map.png" class="card-img-top event-map-image" alt="خريطة" />
+                        <div class="card-body">
+                            <p class="card-text text-center">موقع القاعة على الخريطة</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h4 class="mt-5">فعاليات ذات صلة</h4>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6>ندوة الذكاء الاصطناعي</h6>
+                            <a href="event.html" class="btn btn-sm btn-primary">التفاصيل</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="bg-dark text-white text-center py-4 mt-5">
+            <div class="container">
+                <p>&copy; 2026 دليل فعاليات الجامعة الافتراضية.</p>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
